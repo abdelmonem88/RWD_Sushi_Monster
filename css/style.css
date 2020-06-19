@@ -10,6 +10,10 @@ body {
 	color: #009fff;
 }
 
+.dark-color {
+	color: #000;
+}
+
 .info {
 	background: #fff;
 }
@@ -23,7 +27,7 @@ body {
 }
 
 .info a:hover {
-	color: #242424;
+	color: #000;
 }
 
 /*header*/
@@ -70,7 +74,7 @@ body {
 }
 
 .main-btn:hover {
-	color: #242424;
+	color: #000;
 	border: 2px solid #fff;
 	background: #fff;
 }
@@ -112,7 +116,7 @@ body {
 }
 
 .header-link:hover {
-	color: #242424;
+	color: #000;
 }
 
 @keyframes fromBottom {
@@ -144,11 +148,11 @@ body {
 }
 
 .navbar-brand:hover {
-	color: #242424;
+	color: #000;
 }
 
 .nav-link {
-	color: #242424;
+	color: #000;
 	text-decoration: none;
 	transition: all .5s ease;
 	font-size: 2rem;
@@ -167,8 +171,8 @@ body {
 }
 
 .nav-btn:hover {
-	color: #242424;
-	border: 2px solid #242424;
+	color: #000;
+	border: 2px solid #000;
 	transform: rotate(10deg);
 }
 
@@ -241,7 +245,7 @@ body {
 	color: #fff;
 	border: 3px solid #fff;
 	background: #fff;
-	color: #242424;
+	color: #000;
 }
 
 /*menu*/
@@ -338,7 +342,7 @@ body {
 }
 
 .team-icons a:hover {
-	color: #242424;
+	color: #000;
 	transform: translateY(-5px);
 }
 
@@ -363,7 +367,7 @@ body {
 #contact .input-group-text {
 	background: #009fff;
 	border-color: #009fff;
-	color: #242424;
+	color: #000;
 }
 
 #contact .card input {

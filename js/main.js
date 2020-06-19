@@ -1,11 +1,11 @@
 $(document).ready(function() {
 	//add ripples plugin
 	$('#header,.info').ripples({
-		dropRadius: 20,
-		perturbance: 0.05
+		dropRadius: 25,
+		perturbance: 0.1
 	});
 
-  //add change class to toggler btn
+	//add change class to toggler btn
 	$('.navbar-toggler').click(function() {
 		$('.navbar-toggler').toggleClass('change');
 	});
@@ -43,9 +43,9 @@ $(document).ready(function() {
 		} else {
 			$('#back-to-top').removeClass('scrollTop');
 		}
-  });
-  
-  //add magnific popup plugin
+	});
+
+	//add magnific popup plugin
 	$('.parent-container').magnificPopup({
 		delegate: 'a', // child items selector, by clicking on it popup will open
 		type: 'image',
